@@ -12,7 +12,7 @@ const FilloutForm = () => {
         data-fillout-button-text="Sign Up For Beta"
         data-fillout-dynamic-resize
         data-fillout-button-color="#00D0FF" // New: Button color
-        data-fillout-button-size="medium"    // New: Button size
+        data-fillout-button-size="small"    // New: Button size
         data-fillout-inherit-parameters
         data-fillout-popup-size="medium"
       ></div>

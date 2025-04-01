@@ -26,7 +26,7 @@ export function Navbar() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <FilloutForm data-fillout-button-size="small"  />
+            <FilloutForm />
             <MobileMenu />
           </div>
         </div>
