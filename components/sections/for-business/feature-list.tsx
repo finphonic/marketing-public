@@ -11,7 +11,7 @@ interface Feature {
 const features: Feature[] = [
   {
     title: "Automated Onboarding",
-    description: "Save hours of administrative work with AI-powered client onboarding"
+    description: "Save hours of administrative work with AI-powered lead qualifying"
   },
   {
     title: "CRM Integration",

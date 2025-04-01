@@ -8,30 +8,36 @@ interface PricingPlan {
 
 export const plans: PricingPlan[] = [
   {
-    title: "Tier 1: Starter",
+    title: "Starter",
     price: "$500/month",
-    description: "For small firms with up to 5 advisors.",
+    description: "Perfect for occasional advice",
     features: [
-      "Handles up to 200 inbound calls monthly.",
-      "Basic AI voice agent features: call answering, intent recognition, and lead qualification."
+      "Up to 5 advisors, 200 calls/month.",
+      "Basic AI voice agent: call handling, lead qualification.",
+      "Email summaries",
+      "Standard support"
     ]
   },
   {
-    title: "Tier 2: Professional",
+    title: "Professional",
     price: "$1,000/month",
-    description: "For mid-sized firms with 6-10 advisors.",
+    description: "Ideal for active planning",
     features: [
-      "Handles up to 500 inbound calls monthly.",
-      "Includes Starter features plus advanced analytics (call performance, client sentiment)."
-    ]
+      "6-10 advisors, 500 calls/month",
+      "Adds analytics, CRM integration",
+      "Priority support",
+      "Custom action plans"
+    ],
+    popular: true
   },
   {
-    title: "Tier 3: Enterprise",
-    price: "Custom Pricing",
-    description: "For firms with 10+ advisors or custom needs.",
+    title: "Enterprise",
+    price: "Custom",
+    description: "For financial institutions",
     features: [
-      "Unlimited call handling.",
-      "Includes Professional features plus compliance monitoring tools, bespoke integrations, and dedicated account management."
+      "10+ advisors, unlimited calls.",
+      "Full features: compliance tools, bespoke integrations.",
+      "Dedicated support"
     ]
   }
 ];

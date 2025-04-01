@@ -11,7 +11,7 @@ export const features: Feature[] = [
   {
     icon: Clock,
     title: "24/7 Availability",
-    description: "Get financial advice anytime, anywhere, without scheduling appointments."
+    description: "Qualify yourself on your Financial goals anytime, anywhere, without scheduling appointments."
   },
   {
     icon: Users,
@@ -20,7 +20,7 @@ export const features: Feature[] = [
   },
   {
     icon: Calculator,
-    title: "Cost Explorer",
-    description: "Analyze lifestyle costs and make informed financial decisions with our tools."
+    title: "Save time & Accurate handoff",
+    description: "Human advisors take over when needed, ensuring trust."
   }
 ];

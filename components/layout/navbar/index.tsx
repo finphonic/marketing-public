@@ -5,6 +5,7 @@ import { NavigationLinks } from "./navigation-links";
 import { MobileMenu } from "./mobile-menu";
 import { Button } from "@/components/ui/button";
 import { Bot } from "lucide-react";
+import FilloutForm from '@/components/sections/hero/FilloutForm';
 
 export function Navbar() {
   return (
@@ -17,7 +18,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <Bot className="h-6 w-6 text-primary" />
-            <span className="font-bold text-lg">FinPhonic</span>
+            <span className="font-bold text-lg">FinPhonic Ai Inc.</span>
           </div>
           
           <nav className="hidden md:flex">
@@ -25,9 +26,7 @@ export function Navbar() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Button variant="default" className="hidden md:inline-flex">
-              Get Started
-            </Button>
+            <FilloutForm data-fillout-button-size="small"  />
             <MobileMenu />
           </div>
         </div>

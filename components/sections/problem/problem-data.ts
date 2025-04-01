@@ -10,13 +10,13 @@ interface Problem {
 export const problems: Problem[] = [
   {
     icon: DollarSign,
-    title: "Expensive Traditional Advice",
-    description: "Financial advisors can cost up to 1% of AUM, making professional advice inaccessible for many."
+    title: "Efficiency Boost",
+    description: "Handles repetitive calls, saving advisors 30% of their time, per industry trends"
   },
   {
     icon: Users,
-    title: "Impersonal Experience",
-    description: "Repeating your story to multiple agents is frustrating and time-consuming."
+    title: "Lead Quality",
+    description: "Qualifies leads with 95% intent accuracy goal, reducing wasted effort"
   },
   {
     icon: Clock,

@@ -12,19 +12,19 @@ export const stats: Stat[] = [
   {
     icon: Users,
     title: "Active Members",
-    value: "10,000+",
+    value: "100+",
     description: "Join our growing community of financial enthusiasts"
   },
   {
     icon: MessageSquare,
     title: "Daily Discussions",
-    value: "500+",
+    value: "10+",
     description: "Engage in meaningful conversations about finance"
   },
   {
     icon: Star,
-    title: "Success Stories",
-    value: "1,000+",
-    description: "Real people achieving their financial goals"
+    title: "Stories",
+    value: "10+",
+    description: "Real people discussing about Fintech & Ai"
   }
 ];

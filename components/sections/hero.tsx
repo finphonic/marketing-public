@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import GLOBE from 'vanta/dist/vanta.globe.min';
 import * as THREE from 'three';
 import WordRotate from "@/components/magicui/word-rotate";
+import FilloutForm from '@/components/sections/hero/FilloutForm';
 
 const words = ["Anytime", "Anywhere", "24/7", "On-the-Go"];
 
@@ -70,52 +71,10 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mt-4"
         >
-          <form className="flex flex-col gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="px-4 py-2 border border-gray-300 rounded-md"
-              required
-            />
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg"
-              onClick={async (e) => {
-                e.preventDefault();
-                const email = (document.querySelector('input[type="email"]') as HTMLInputElement).value;
-                if (email) {
-                  try {
-                    const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
-                      method: 'POST',
-                      headers: {
-                        'Content-Type': 'application/json',
-                      },
-                      body: JSON.stringify({
-                        service_id: 'your_service_id',
-                        template_id: 'your_template_id',
-                        user_id: 'your_user_id',
-                        template_params: {
-                          to_email: 'finphonic@gmail.com',
-                          from_email: email,
-                        },
-                      }),
-                    });
-                    if (response.ok) {
-                      alert('We will be in touch soon');
-                    } else {
-                      alert('Failed to send email');
-                    }
-                  } catch (error) {
-                    alert('An error occurred');
-                  }
-                } else {
-                  alert('Please enter a valid email');
-                }
-              }}
-            >
-              Sign Up For Beta Launch 
-            </Button>
-          </form>
+          <FilloutForm />
+         
+        
+          
         </motion.div>
       </div>
     </div>

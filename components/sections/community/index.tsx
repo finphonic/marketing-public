@@ -23,10 +23,29 @@ export function CommunitySection() {
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
             Connect with other users, share insights, and help shape the future of AI financial advice
           </p>
-          <Button size="lg" className="mb-12">
-            <MessageSquare className="mr-2 h-5 w-5" />
-            Join Discord
-          </Button>
+          <Button size="lg" className="mb-6">
+      <a
+        href="https://www.linkedin.com/groups/13188313/" // Replace with your Discord invite URL
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center"
+      >
+        <MessageSquare className="mr-2 h-5 w-5" />
+        Join LinkedIn
+      </a>
+    </Button>
+
+    <Button size="lg" className="mb-6" style={{ marginLeft: "10px" }} >
+      <a
+        href="https://discord.gg/eJQPPbmSbV" // Replace with your Discord invite URL
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center"
+      >
+        <MessageSquare className="mr-2 h-5 w-5" />
+        Join Discord
+      </a>
+    </Button>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

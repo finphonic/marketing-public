@@ -47,7 +47,7 @@ export function Footer() {
         <Separator className="mb-8" />
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} AI Financial Advisor. All rights reserved.
+            © {new Date().getFullYear()} FinPhonic Ai Inc. All rights reserved.
           </p>
           <FooterSocial />
         </div>

@@ -8,10 +8,14 @@ export function FooterSocial() {
         <Twitter className="h-5 w-5" />
       </Button>
       <Button variant="ghost" size="icon">
+      <a href="https://www.linkedin.com/company/finphonic/" target="_blank">
         <Linkedin className="h-5 w-5" />
+        </a>
       </Button>
       <Button variant="ghost" size="icon">
+        
         <Github className="h-5 w-5" />
+        
       </Button>
     </div>
   );

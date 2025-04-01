@@ -35,10 +35,10 @@ export function ProblemSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Tired of Expensive, Impersonal Financial Advice?
+          Tired of longer wait times, Innaccurate leads?
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Our AI advisor is cost-effective, available 24/7, and provides tailored advice without the hassle.
+          Our AI advisor is cost-effective, available 24/7, and provides tailored lead collection without the hassle.
           </p>
         </motion.div>
 

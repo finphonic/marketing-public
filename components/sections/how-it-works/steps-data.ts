@@ -11,21 +11,21 @@ export const steps: Step[] = [
   {
     icon: MessageSquare,
     title: "Introduction",
-    description: "Start a conversation with our AI advisor and share your financial goals."
+    description: "AI answers inbound calls instantly with introdocution and it personalizes"
   },
   {
     icon: ClipboardList,
     title: "Questions",
-    description: "Answer targeted questions to help our AI understand your unique situation."
+    description: "Customize the Ai to ask personalized questions"
   },
   {
     icon: Share2,
     title: "Post-call Handoffs",
-    description: "Receive detailed summaries and action items after each consultation."
+    description: "Understands needs, provides info, or qualifies leads."
   },
   {
     icon: Database,
-    title: "CRM Integration",
-    description: "All your information is automatically organized and stored securely."
+    title: "Advisor Steps In (Human in the loop)",
+    description: "Transfers complex queries to advisors with full context."
   }
 ];
