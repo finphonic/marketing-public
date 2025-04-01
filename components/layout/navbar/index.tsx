@@ -18,7 +18,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <Bot className="h-6 w-6 text-primary" />
-            <span className="font-bold text-lg">FinPhonic Ai Inc.</span>
+            <span className="font-bold text-lg">FinPhonic</span>
           </div>
           
           <nav className="hidden md:flex">
