@@ -56,7 +56,7 @@ export function HeroSection() {
           className="flex flex-col gap-6 mb-16"
         >
           <h1 className="text-3xl md:text-5xl font-bold text-white inline-flex items-center justify-center flex-wrap">
-            <span>Transform Your Financial Advisory with AI Voice Agents</span>
+            <span>Qualify Leads with AI Voice Agents for Financial Advisors</span>
             <span className="whitespace-nowrap">
               {" "}<span className="text-primary inline-block">
                 <WordRotate words={words} />
