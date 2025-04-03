@@ -19,7 +19,7 @@ export function NavigationLinks({ className }: NavigationLinksProps) {
         ["how-it-works", "How It Works"],
         ["for-business", "For Business"],
         ["for-consumers", "For Consumers"],
-       /* ["pricing", "Pricing"] */
+     
         ["community", "Community"],
       ].map(([id, label]) => (
         <a
@@ -34,3 +34,5 @@ export function NavigationLinks({ className }: NavigationLinksProps) {
     </div>
   );
 }
+
+  /* ["pricing", "Pricing"] */
